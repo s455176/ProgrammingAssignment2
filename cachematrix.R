@@ -1,7 +1,10 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+## follow the the sample code in the spec which is on the assignment2 web page 
+## and change the cache vector to cache matrix 
 
 ## Write a short comment describing this function
+## construct the matrix and retun it 
 
 makeCacheMatrix <- function(x = matrix()) {
 	invert_m <- NULL
@@ -19,6 +22,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## calculate the invert matrix of the given cache matrix and cache it in the 
+## variable invert_m 
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
